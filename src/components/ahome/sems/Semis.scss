@@ -1,0 +1,118 @@
+.s-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.s-card {
+  background: #f6f6f6;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.s-icon-wrapper {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  background: #7A7A7A;
+  padding: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-icon {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-question {
+  font-weight: 550;
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #4E4E4E;
+}
+
+.s-answer {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.s-read-more {
+  margin-top: 16px;
+  background: none;
+  border: none;
+  color: #ff6a00;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.s-ask-btn {
+  margin-top: 40px;
+  border: 2px solid #ff6a00;
+  color: #ff6a00;
+  background: none;
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.s-ask-btn:hover {
+  background: #ffece0;
+}
+
+.s-input-area {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
+}
+
+.s-input-area input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.s-input-area button {
+  padding: 12px 20px;
+  border: none;
+  background: #ff6a00;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* RESPONSIVE: media holatida 1 tadan chiqsin */
+@media (max-width: 768px) {
+  .s-grid {
+    width: 100%;
+  }
+}

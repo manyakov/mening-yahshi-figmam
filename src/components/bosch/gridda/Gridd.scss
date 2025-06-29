@@ -1,0 +1,52 @@
+.kotta-div-bos{
+    background-color: #f0f1f3;
+    display: flex;
+    padding: 30px;
+    .gridlarbos{
+        max-width: 50%;
+        .tepasidagi{
+            display: flex;
+            .kook{
+            }
+        }
+        .pastdagisi{
+            display: flex;
+            gap: 40px;
+
+        }
+    }
+    .textlar{
+        max-width: 30%;
+        text-align: left;
+        margin-top: 200px;
+        button{
+            border: none;
+            background-color: #00639A;
+            color: white;
+            padding: 20px 30px;
+            margin-top: 30px;
+        }
+    }
+    @media (max-width:806px) {
+        flex-direction: column;
+        .gridlarbos{
+            .tepasidagi{
+                flex-direction: column;
+                .kook{
+                    margin-top: -300px;
+                }
+
+            }
+            .pastdagisi{
+                flex-direction: column;
+            }
+        }
+        .textlar{
+            max-width: 100%;
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

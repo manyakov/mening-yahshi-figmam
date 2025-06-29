@@ -1,0 +1,341 @@
+.orab-turadi{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    .iktalikni-oraydi1{
+        display: flex;
+        gap: 50px;
+        .foiz-84{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 20px;
+            }
+    
+            .iktali-rasmlar{
+                display: flex;
+                img{
+                    height: 30px;
+                    margin: auto 0;
+                }
+                .uzun-div{
+                    margin-left: 22px;
+                    width: 33px;
+                    height: 300px;
+                    border: 1px solid black;
+                    background-color: #F0F1F3;
+                }
+            }
+    
+            .past-yozuvlari{
+                max-width: 110px;
+            }
+    
+        }
+        .foiz-80{
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 20px;
+            }
+    
+            .iktali-rasmlar{
+                display: flex;
+                img{
+                    height: 30px;
+                    margin: auto 0;
+                }
+                .uzun-div{
+                    margin-left: 22px;
+                    width: 33px;
+                    height: 280px;
+                    border: 1px solid black;
+                    background-color: #F0F1F3;
+                }
+            }
+    
+            .past-yozuvlari{
+                max-width: 110px;
+            }
+        }
+        
+    }
+    .iktalikni-oraydi2{
+        display: flex;
+        gap: 50px;
+        .foiz-74{
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            .iconkasi-div{
+                height: 40px;
+                margin-bottom: 20px;
+            }
+    
+            .iktali-rasmlar{
+                display: flex;
+                margin-left: 1px;
+                img{
+                    height: 30px;
+                    margin: auto 0;
+                }
+                .uzun-div{
+                    margin-left: 22px;
+                    width: 33px;
+                    height: 250px;
+                    border: 1px solid black;
+                    background-color: #F0F1F3;
+                }
+            }
+    
+            .past-yozuvlari{
+                max-width: 112px;
+            }
+        }
+        .foiz-85{
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 33px;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 20px;
+            }
+    
+            .iktali-rasmlar{
+                display: flex;
+                img{
+                    height: 30px;
+                    margin: auto 0;
+                }
+                .uzun-div{
+                    margin-left: 22px;
+                    width: 33px;
+                    height: 296px;
+                    border: 1px solid black;
+                    background-color: #F0F1F3;
+                }
+            }
+    
+            .past-yozuvlari{
+                max-width: 100px;
+            }
+        }
+    }
+    .iktalikni-oraydi3{
+        display: flex;
+        gap: 30px;
+        .foiz-76{
+                       text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 45px;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 20px;
+            }
+    
+            .iktali-rasmlar{
+                display: flex;
+                margin-left: 15px;
+                img{
+                    height: 30px;
+                    margin: auto 0;
+                }
+                .uzun-div{
+                    margin-left: 22px;
+                    width: 33px;
+                    height: 270px;
+                    border: 1px solid black;
+                    background-color: #F0F1F3;
+                }
+            }
+    
+            .past-yozuvlari{
+                max-width: 130px;
+            }
+        }
+        .foiz-87{
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 20px;
+            }
+    
+            .iktali-rasmlar{
+                display: flex;
+                margin-left: 50px;
+                img{
+                    height: 30px;
+                    margin: auto 0;
+                }
+                .uzun-div{
+                    margin-left: 22px;
+                    width: 33px;
+                    height: 314px;
+                    border: 1px solid black;
+                    background-color: #F0F1F3;
+                }
+            }
+    
+            .past-yozuvlari{
+                max-width: 200px;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+         margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .iktalikni-oraydi1{
+        display: flex;
+        gap: 50px;
+        .foiz-84{
+            padding: 20px;
+            border: 1px solid #00639A;
+            width: 130px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 0;
+            }
+    
+            .iktali-rasmlar{
+                display: none;
+            }
+    
+            .past-yozuvlari{
+                max-width: 110px;
+            }
+    
+        }
+        .foiz-80{
+            padding: 20px;
+            border: 1px solid #00639A;
+            width: 130px;
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 0;
+            }
+    
+            .iktali-rasmlar{
+                display: none;
+            }
+            .past-yozuvlari{
+                max-width: 110px;
+            }
+        }
+        
+    }
+    .iktalikni-oraydi2{
+        display: flex;
+        gap: 50px;
+        .foiz-74{
+            padding: 20px;
+            border: 1px solid #00639A;
+            width: 130px;
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0;
+            .iconkasi-div{
+                height: 40px;
+                margin-bottom: 0;
+            }
+    
+            .iktali-rasmlar{
+                display: none;
+            }
+    
+            .past-yozuvlari{
+                max-width: 112px;
+            }
+        }
+        .foiz-85{
+            padding: 20px;
+            border: 1px solid #00639A;
+            width: 130px;
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 0;
+            }
+    
+            .iktali-rasmlar{
+                display: none;
+            }
+            .past-yozuvlari{
+                max-width: 100px;
+            }
+        }
+    }
+    .iktalikni-oraydi3{
+        display: flex;
+        gap: 50px;
+        .foiz-76{
+            padding: 20px;
+            border: 1px solid #00639A;
+            width: 130px;
+                       text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 0;
+            }
+    
+            .iktali-rasmlar{
+                display: none;
+            }
+    
+            .past-yozuvlari{
+                max-width: 130px;
+            }
+        }
+        .foiz-87{
+            padding: 20px;
+            border: 1px solid #00639A;
+            width: 130px;
+                   text-align: center;
+            align-items: center;
+            justify-content: center;
+            .iconkasi-div{
+                height: 60px;
+                margin-bottom: 0;
+            }
+    
+            .iktali-rasmlar{
+                display: none;
+            }
+    
+            .past-yozuvlari{
+                max-width: 130px;
+            }
+        }
+    }
+    }
+}

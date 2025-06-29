@@ -1,0 +1,82 @@
+.bacraund-beriladigan-div{
+    width: 100%;
+    height: 100%;
+    background-image:  url("../../../img/фонbs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 20px;
+
+    .tepadagi-div{
+        padding-top: 100px;
+        padding-bottom: 70px;
+        .tepadagi-divning-bolasi{
+            background-color: rgba(255, 255, 255, 0.70);
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  .tugmalar-uchun{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .kok-tugma{
+        border: none;
+        background-color: #00639A;
+        padding: 20px;
+        max-width: 250px;
+        color: white;
+    }
+    .oq-sifat-tugma{
+        border: 1px solid black;
+         padding: 20px;
+        max-width: 200px;
+    }
+  }
+        }
+        @media (max-width: 768px) {
+            .tugmalar-uchun{
+                flex-direction: column;
+            }
+        }
+    }
+    .pastdagi-div{
+        margin-bottom: 100px;
+        .pastni-oraydi{
+                 background-color: rgba(255, 255, 255, 0.70);
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+   display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+            .birinchi-ik,
+            .ikkinchi-ik,
+            .uchinchi-ik{
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    .rs{
+                        display: block;
+                        margin: 0 auto;
+                    }
+                    span{
+                        display: block;
+                        width: 100%;
+                    }
+                  
+            }
+            @media (max-width: 768px) {
+                flex-direction: column;
+                margin-top: -70px;
+            }
+        }
+    }
+}

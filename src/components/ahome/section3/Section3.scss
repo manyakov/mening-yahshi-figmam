@@ -1,0 +1,130 @@
+.why-us {
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 16px;
+
+  &-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #2c2c2c;
+  }
+
+  &-subtitle {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 40px;
+  }
+
+  &-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &-card {
+    position: relative;
+    background: white;
+    padding: 48px 20px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+      content: attr(data-number);
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 120px;
+      font-weight: 800;
+      color: rgba(245, 153, 57, 0.12);
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+      white-space: nowrap;
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid #eee;
+
+      @media (max-width: 992px) {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+      }
+
+      @media (max-width: 576px) {
+        border-bottom: 1px solid #eee;
+      }
+    }
+
+    .card-title {
+      position: relative;
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 90px;
+      margin-bottom: 24px;
+      z-index: 2;
+    }
+
+    .card-description,
+    .card-image {
+      position: relative;
+      z-index: 2;
+    }
+
+    .card-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 16px 0;
+      gap: 0;
+      width: 100%;
+      max-width: 240px;
+      z-index: 2;
+
+      span {
+        flex: 1;
+        height: 13px;
+        border-radius: 6.5px;
+        display: block;
+      }
+
+      &.left span:nth-child(1) {
+        background: #f58220; 
+      }
+      &.left span:nth-child(2),
+      &.left span:nth-child(3) {
+        background: #eee;
+      }
+
+      &.center span:nth-child(2) {
+        background: #f58220; 
+      }
+      &.center span:nth-child(1),
+      &.center span:nth-child(3) {
+        background: #eee; 
+      }
+
+      &.right span:nth-child(3) {
+        background: #f58220; 
+      }
+      &.right span:nth-child(1),
+      &.right span:nth-child(2) {
+        background: #eee; 
+      }
+    }
+  }
+}

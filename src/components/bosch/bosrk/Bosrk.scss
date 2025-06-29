@@ -1,0 +1,103 @@
+.rk-ota{
+    margin-top: 200px;
+    display: flex;
+    max-height: 500px;
+    .chap-rasm{
+        background-image: url("../../../img/Rectangle\ 205.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+         position: relative; 
+         z-index: 2;
+
+  &::after {
+   content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0)); 
+    pointer-events: none;
+    z-index: -1; 
+  }
+     
+      .telfon{
+        transform: translate(270px, -220px);
+      }
+    }
+    .ong-yozuvlar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .bosh-yz{
+            margin-top: 100px;
+        }
+        .yozuvning-otasi{
+            margin-bottom: 50px;
+            span{
+                span{
+                    color: #00639A;
+                }
+            }
+        }
+        .kamroq-yozu{
+        }
+        .kok-tug{
+            margin-top: 30px;
+            border: none;
+            background-color: #00639A;
+            color: white;
+            padding: 20px 30px; 
+        }
+    }
+   @media (max-width: 768px) {
+  .chap-rasm {
+    display: none;
+  }
+
+  .ong-yozuvlar {
+    position: relative;
+    background-image: url("../../../img/фон2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 70%; 
+      height: 100%;
+      background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+      pointer-events: none;
+      z-index: 1;
+    }
+    .bosh-yz{
+        position: relative;
+        z-index: 2;
+    }
+    .yozuvning-otasi{
+        position: relative;
+        z-index: 2;
+        span{
+            span{
+                display: block;
+            }
+        }
+    }
+    .kamroq-yozu{
+        position: relative;
+        z-index: 2;
+    }
+
+    .kok-tug {
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+
+}

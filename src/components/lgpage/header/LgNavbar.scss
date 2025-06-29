@@ -1,0 +1,23 @@
+.ota-quti{
+    text-align: center;
+    margin-top: 80px;
+ 
+     .svvv {
+      gap: 50px;
+        margin-top: 50px;
+display: flex;
+justify-content: center;
+
+    .i11, .i21, .i31 {
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+  .svvv {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+}

@@ -1,0 +1,103 @@
+.samsung-carousel {
+  .carousel-slide {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .text-content {
+      max-width: 50%;
+      transform: translateX(40%);
+      h2 {
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 18px;
+        margin: 15px 0;
+        color: #ddd;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        .rounded-btn {
+          border-radius: 30px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .nav-btn-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 90px;
+      right: 90px;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .nav-btn {
+      background: rgba(255, 255, 255, 0.2);
+      border: 2px solid white;
+      color: white;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      font-size: 24px;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+
+    .progress-indicator {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+
+      .bar {
+        width: 40px;
+        height: 2px;
+        background-color: #888;
+
+        &.active {
+          background-color: orange;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .text-content {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .nav-btn-wrapper {
+        position: static;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .progress-indicator {
+        display: none;
+      }
+    }
+  }
+}

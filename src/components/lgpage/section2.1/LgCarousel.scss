@@ -1,0 +1,93 @@
+.lg-carousel {
+  .carousel-slidelg {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: #212121;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .text-contentlg {
+      max-width: 40%;
+      transform: translateX(40%);
+      .h2 {
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 18px;
+        margin: 15px 0;
+        color: #212121;
+      }
+
+      .buttonss {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+      .btn-outlined{
+        border: 1px solid black;
+      }
+      }
+    }
+
+    .nav-btn-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 150px;
+      right: 150px;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .nav-btnLg {
+      color: black;
+      font-size: 24px;
+      cursor: pointer;
+
+    }
+
+    .progress-indicatorr {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+
+      .bar {
+        width: 14px;
+        height: 14px;
+        border: 1px solid black;
+        border-radius: 50%;
+        &.active {
+          width: 30px;
+          border-radius: 50px;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .text-content {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .nav-btn-wrapper {
+        position: static;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .progress-indicatorr {
+        display: none;
+      }
+    }
+  }
+}

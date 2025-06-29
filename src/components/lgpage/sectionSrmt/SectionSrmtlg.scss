@@ -1,0 +1,43 @@
+.oralg{
+    margin-top: 200px;
+    .top-text{
+        text-align: center;
+        .ksp{
+            margin-top: 20px;
+            margin-bottom: 65px;
+        }
+    }
+    
+    .ora-textlg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 73px;
+        span{
+            display: block;
+        }
+
+        .line-tlg{
+            width: 1px;
+            height: 130px !important;
+            color: #212121;
+            background-color: #212121;
+        }
+        
+        @media (max-width: 800px) {
+            display: block;
+            gap: 0;
+            .line-tlg{
+                display: none;
+            }
+        }
+    }
+    .ftlg{
+        text-align: center;
+        margin-top: 65px;
+        button{
+            margin-left: 29px;
+            padding: 10px 15px;
+        }
+    }
+}

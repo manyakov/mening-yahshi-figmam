@@ -1,0 +1,75 @@
+.step-box {
+  padding: 40px 0;
+
+  &__wrapper {
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    padding: 30px 20px;
+  }
+
+  &__column {
+    border-right: 1px solid white;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    @media (max-width: 768px) {
+      border-right: none;
+      border-bottom: 1px solid white;
+       &:last-child {
+      border-bottom: none;
+    }
+    }
+  }
+
+  &__card {
+    padding: 20px 10px;
+    border-radius: 16px;
+    background-color: transparent;
+  }
+
+  &__number {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .col-12:nth-child(1) &__text{
+    max-width: 120px;
+    transform: translateX(50px);
+  } 
+
+  &__text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 15px;
+  }
+
+  &__linelg {
+    display: flex;
+    height: 2px;
+    width: 100%;
+    margin: 0 auto 15px auto;
+
+    .line-dark {
+      background-color: #A50034;
+      height: 100%;
+    }
+
+    .line-light {
+      background-color: #fff;
+      height: 100%;
+    }
+  }
+
+  &__image {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  }
+}
