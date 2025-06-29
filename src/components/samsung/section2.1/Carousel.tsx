@@ -24,10 +24,10 @@ const SamsungCarousel: React.FC = () => {
         className="carousel-slide"
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
       >
-        <div className="text-content">
+        <div className="text-contentsm">
           <h2>Сервисный центр Samsung в Киеве</h2>
           <p>Ремонт и обслуживание техники от мастеров с 10-летним опытом</p>
-          <div className="buttons">
+          <div className="buttonssm">
             <button className="btn btn-light rounded-btn">ВЫБРАТЬ МАСТЕРА</button>
             <button className="btn btn-outline-light rounded-btn">ЗАКАЗАТЬ ЗВОНОК</button>
           </div>

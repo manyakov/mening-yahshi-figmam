@@ -1,182 +1,190 @@
-.oltilikni-ora {
-  background-color: #f5f7fa;
-  display: flex;
-  padding: 60px 40px;
-
-  .brlik,
-  .uchlik,
-  .beshlik{
-    max-width: 200px;
-    text-align: center;
-    position: relative;
-    font-family: sans-serif;
-    margin-top: 190px;
-
-    .nomer {
-      color: #0072c6;
-      margin-bottom: 20px;
-    }
-
-    .rasm-uchunn {
+.eng-kottasi{
+  .oltilikni-ora {
+    background-color: #f5f7fa;
+    display: flex;
+    padding: 60px 40px;
+  
+    .brlik,
+    .uchlik,
+    .beshlik{
+      max-width: 200px;
+      text-align: center;
       position: relative;
-
-      .dumrs {
-        margin: 0 auto;
-        z-index: 2;
-        position: relative;
-
-        img {
-        }
-      }
-
-      .str {
-        position: absolute;
-        top: -25px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-
-        img {
-        }
-      }
-    }
-
-    .yozular-uchu {
-      margin-top: 10px;
-
-      h4 {
+      font-family: sans-serif;
+      margin-top: 190px;
+  
+      .nomer {
         color: #0072c6;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
-
-      span {
-        color: #333;
-        display: block;
-        line-height: 1.4;
-      }
-    }
-  }
-  .brlikm,
-  .uchlikm,
-  .beshlikm{
-    display: none;
-  }
-
-  .ikkilik,
-  .torlik,
-  .oltilik{
-    max-width: 200px;
-    text-align: center;
-    position: relative;
-    font-family: sans-serif;
-
-    .nomer {
-      color: #0072c6;
-      margin-top: 25px;
-    }
-
-    .rasm-uchunn {
-      position: relative;
-
-      .dumrs {
-        margin: 0 auto;
-        z-index: 2;
+  
+      .rasm-uchunn {
         position: relative;
-
-        img {
+  
+        .dumrs {
+          margin: 0 auto;
+          z-index: 2;
+          position: relative;
+  
+          img {
+          }
+        }
+  
+        .str {
+          position: absolute;
+          top: -25px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+  
+          img {
+          }
         }
       }
-
-      .str {
-        position: absolute;
-        top: 83px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-
-        img {
+  
+      .yozular-uchu {
+        margin-top: 10px;
+  
+        h4 {
+          color: #0072c6;
+          margin-bottom: 10px;
+        }
+  
+        span {
+          color: #333;
+          display: block;
+          line-height: 1.4;
         }
       }
     }
-
-    .yozular-uchu {
-
-      h4 {
-        color: #0072c6;
-      }
-
-      span {
-        color: #333;
-        display: block;
-        line-height: 1.4;
-      }
-    }
-  }
-  @media (max-width:809px) {
-    flex-direction: column;
-  .brlik,
-  .uchlik,
-  .beshlik{
-    margin-top: 19px;
-  }
     .brlikm,
-  .uchlikm,
-  .beshlikm{
-         max-width: 200px;
-    text-align: center;
-    position: relative;
-    font-family: sans-serif;
-    margin-top: 19px;
-    display: block;
-
-    .nomer {
-      color: #0072c6;
-      margin-bottom: 20px;
+    .uchlikm,
+    .beshlikm{
+      display: none;
     }
-
-    .rasm-uchunn {
-      position: relative;
-
-      .dumrs {
-        margin: 0 auto;
-        z-index: 2;
-        position: relative;
-
-        img {
-        }
-      }
-
-      .str {
-        position: absolute;
-        top: -25px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-
-        img {
-        }
-      }
-    }
-
-    .yozular-uchu {
-      margin-top: 10px;
-
-      h4 {
-        color: #0072c6;
-        margin-bottom: 10px;
-      }
-
-      span {
-        color: #333;
-        display: block;
-        line-height: 1.4;
-      }
-    }
-    }
+  
     .ikkilik,
-  .torlik,
-  .oltilik{
+    .torlik,
+    .oltilik{
+      max-width: 200px;
+      text-align: center;
+      position: relative;
+      font-family: sans-serif;
+  
+      .nomer {
+        color: #0072c6;
+        margin-top: 25px;
+      }
+  
+      .rasm-uchunn {
+        position: relative;
+  
+        .dumrs {
+          margin: 0 auto;
+          z-index: 2;
+          position: relative;
+  
+          img {
+          }
+        }
+  
+        .str {
+          position: absolute;
+          top: 83px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+  
+          img {
+          }
+        }
+      }
+  
+      .yozular-uchu {
+  
+        h4 {
+          color: #0072c6;
+        }
+  
+        span {
+          color: #333;
+          display: block;
+          line-height: 1.4;
+        }
+      }
+    }
+
+  }
+  .meih{
     display: none;
   }
-  }
+      @media (max-width:809px) {
+        .meih{
+          background-color: #f5f7fa;
+      padding: 60px 40px;
+      display: block;
+  
+        .brlikm,
+      .uchlikm,
+      .beshlikm,
+         .brlikm2,
+      .uchlikm2,
+      .beshlikm2{
+        text-align: center;
+        position: relative;
+        font-family: sans-serif;
+        margin-top: 19px;
+        display: block;
+    
+        .nomer {
+          color: #0072c6;
+          margin-bottom: 20px;
+        }
+    
+        .rasm-uchunn {
+          position: relative;
+    
+          .dumrs {
+            margin: 0 auto;
+            z-index: 2;
+            position: relative;
+    
+            img {
+            }
+          }
+    
+          .str {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+    
+            img {
+            }
+          }
+        }
+    
+        .yozular-uchu {
+          margin-top: 10px;
+    
+          h4 {
+            color: #0072c6;
+            margin-bottom: 10px;
+          }
+    
+          span {
+            color: #333;
+            display: block;
+            line-height: 1.4;
+          }
+        }
+        }
+
+        }
+   .oltilikni-ora{
+      display: none;
+    }
+    }
+
 }

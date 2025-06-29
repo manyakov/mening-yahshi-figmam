@@ -13,11 +13,11 @@ const Inputli = () => {
         maxLength={1000}
         className="feedback-textarea"
       ></textarea>
-      <div className="feedback-row">
+      <div className="feedback-rowsm">
         <input type="text" placeholder="Ваше имя" />
         <input type="text" placeholder="Номер телефона" />
       </div>
-      <div className="feedback-row">
+      <div className="feedback-rowsm">
         <input type="text" placeholder="Ваш сервисный центр" />
         <input type="text" placeholder="Имя вашего мастера" />
       </div>

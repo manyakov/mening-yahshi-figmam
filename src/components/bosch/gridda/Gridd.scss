@@ -30,15 +30,20 @@
     @media (max-width:806px) {
         flex-direction: column;
         .gridlarbos{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
             .tepasidagi{
                 flex-direction: column;
-                .kook{
-                    margin-top: -300px;
-                }
+             img{
+                margin: 0 auto;
+             }
 
             }
             .pastdagisi{
                 flex-direction: column;
+                margin: 0 auto;
             }
         }
         .textlar{

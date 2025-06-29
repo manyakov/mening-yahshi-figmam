@@ -35,36 +35,40 @@ const items = [
   { name: "Кондиционер", image: Кондиционер, category: "Бытовая техника" },
 
   // IT продукты
-  { name: "Смартфон", image: "smartphone.jpg", category: "IT продукты" },
-  { name: "Планшет", image: "tablet.jpg", category: "IT продукты" },
-  { name: "Умные часы", image: "smartwatch.jpg", category: "IT продукты" },
+  { name: "Смартфон", image: Духовой, category: "IT продукты" },
+  { name: "Планшет", image: Парогенератор, category: "IT продукты" },
+  { name: "Умные часы", image: Кухонная, category: "IT продукты" },
 
 
   // ТВ / Аудио / Видео
-  { name: "Телевизор", image: "tv.jpg", category: "ТВ / Аудио / Видео" },
-  { name: "Саундбар", image: "soundbar.jpg", category: "ТВ / Аудио / Видео" },
-  { name: "Домашний кинотеатр", image: "home-theater.jpg", category: "ТВ / Аудио / Видео" },
+  { name: "Телевизор", image: pelisos, category: "ТВ / Аудио / Видео" },
+  { name: "Саундбар", image: Микроволновая, category: "ТВ / Аудио / Видео" },
+  { name: "Домашний кинотеатр", image: Холодильник, category: "ТВ / Аудио / Видео" },
 ];
 
 export default function LgRepair2() {
   const [activeTab, setActiveTab] = useState("Бытовая техника");
   const [screenCategories, setScreenCategories] = useState(allCategories);
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setScreenCategories(["Бытовая техника", "IT продукты"]);
-        if (!screenCategories.includes(activeTab)) {
-          setActiveTab("Бытовая техника");
-        }
-      } else {
-        setScreenCategories(allCategories);
+useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth <= 768) {
+      const newScreenCategories = ["Бытовая техника", "IT продукты"];
+      setScreenCategories(newScreenCategories);
+      if (!newScreenCategories.includes(activeTab)) {
+        setActiveTab("Бытовая техника");
       }
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [activeTab, screenCategories]);
+    } else {
+      setScreenCategories(allCategories);
+    }
+  };
+
+  handleResize(); 
+
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, [activeTab, allCategories]);
+
 
   const filteredItems = items.filter((item) => item.category === activeTab);
 

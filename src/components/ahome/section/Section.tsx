@@ -106,7 +106,7 @@ const Section = () => {
           </div>
 
           {isOpen && (
-            <ul className="options">
+            <ul className="optionshm">
               {filteredOptions.length > 0 ? (
                 filteredOptions.map((opt) => (
                   <li

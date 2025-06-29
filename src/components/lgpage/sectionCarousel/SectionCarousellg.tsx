@@ -174,7 +174,7 @@ const SectionCarousellg: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="carousel-controls">
+      <div className="carousel-controlslg">
         <button onClick={handlePrev} className="navlg prevlg">❮</button>
         <button onClick={handleNext} className="navlg nextlg">❯</button>
       </div>

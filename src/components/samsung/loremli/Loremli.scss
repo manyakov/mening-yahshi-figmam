@@ -8,4 +8,7 @@
       padding: 0 100px;
       display: block;
     }
+    @media (max-width: 768px) {
+      text-align: center;
+    }
   }

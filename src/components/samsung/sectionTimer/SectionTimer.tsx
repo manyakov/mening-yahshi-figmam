@@ -23,15 +23,15 @@ const SectionTimer: React.FC = () => {
      <div className="countdown-wrapper container">
       <p className="countdown-title">До конца акции осталось</p>
     <div className="countdown-box shadow">
-  <div className="time-group">
+  <div className="time-groupsm">
     <span className="time">{hours}</span>
     <span className="label">часов</span>
   </div>
-  <div className="time-group">
+  <div className="time-groupsm">
     <span className="time">{minutes}</span>
     <span className="label">минут</span>
   </div>
-  <div className="time-group">
+  <div className="time-groupsm">
     <span className="time">{seconds}</span>
     <span className="label">секунд</span>
   </div>

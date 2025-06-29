@@ -22,7 +22,6 @@ const allCategoriesStatic = [
 ];
 
 const items = [
-  // Бытовая техника
   { name: "", image: pelisos, category: "Бытовая техника" },
   { name: "Парогенератор", image: Парогенератор, category: "Бытовая техника" },
   { name: "Гладильная система", image: Гладильная, category: "Бытовая техника" },
@@ -36,20 +35,17 @@ const items = [
   { name: "Микроволновая печь", image: Микроволновая, category: "Бытовая техника" },
   { name: "Кондиционер", image: Кондиционер, category: "Бытовая техника" },
 
-  // Цифровая техника
-  { name: "Смартфон", image: "smartphone.jpg", category: "Цифровая техника" },
-  { name: "Планшет", image: "tablet.jpg", category: "Цифровая техника" },
-  { name: "Умные часы", image: "smartwatch.jpg", category: "Цифровая техника" },
+  { name: "Pelisos", image: pelisos, category: "Цифровая техника" },
+  { name: "Планшет", image: Варочная, category: "Цифровая техника" },
+  { name: "Умные часы", image: Кондиционер, category: "Цифровая техника" },
 
-  // Компьютерная техника
-  { name: "Ноутбук", image: "laptop.jpg", category: "Компьютерная техника" },
-  { name: "Монитор", image: "monitor.jpg", category: "Компьютерная техника" },
-  { name: "Принтер", image: "printer.jpg", category: "Компьютерная техника" },
+  { name: "Ноутбук", image: Кухонная, category: "Компьютерная техника" },
+  { name: "Монитор", image: Сушильная, category: "Компьютерная техника" },
+  { name: "Принтер", image: Стиральная, category: "Компьютерная техника" },
 
-  // ТВ и Аудио
-  { name: "Телевизор", image: "tv.jpg", category: "ТВ и Аудио" },
-  { name: "Саундбар", image: "soundbar.jpg", category: "ТВ и Аудио" },
-  { name: "Домашний кинотеатр", image: "home-theater.jpg", category: "ТВ и Аудио" },
+  { name: "Телевизор", image: Парогенератор, category: "ТВ и Аудио" },
+  { name: "Саундбар", image: Микроволновая, category: "ТВ и Аудио" },
+  { name: "Домашний кинотеатр", image: Духовой, category: "ТВ и Аудио" },
 ];
 
 export default function SamsungRepair() {
@@ -57,7 +53,6 @@ export default function SamsungRepair() {
   const [activeTab, setActiveTab] = useState("Бытовая техника");
   const [screenCategories, setScreenCategories] = useState(allCategories);
 
-  // EKRAN KATEGORIYALARINI TASHKIL ETISH
   useEffect(() => {
     const handleResize = () => {
       const isMobile = window.innerWidth <= 768;
@@ -79,7 +74,6 @@ export default function SamsungRepair() {
     return () => window.removeEventListener("resize", handleResize);
   }, [allCategories, screenCategories]);
 
-  // activeTab ni faqat screenCategories ga qarab tekshirish
   useEffect(() => {
     if (!screenCategories.includes(activeTab)) {
       setActiveTab(screenCategories[0]);
@@ -96,11 +90,11 @@ export default function SamsungRepair() {
         для восстановления её работоспособности и внешнего вида, обслужим и осуществим настройку
       </p>
 
-      <div className="tabs">
+      <div className="tabssm">
         {screenCategories.map((cat) => (
           <div
             key={cat}
-            className={`tab ${cat === activeTab ? "active" : ""}`}
+            className={`tabsm ${cat === activeTab ? "active" : ""}`}
             onClick={() => setActiveTab(cat)}
           >
             {cat}

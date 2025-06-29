@@ -3,20 +3,20 @@
   flex-wrap: wrap;
   margin-bottom: 120px;
 
-  .left {
-    width: 30%;
+  .lefthm {
+    width: 50%;
 
     h2 {
       font-size: 26px;
       font-weight: 700;
     }
 
-    .rating-img {
+    .rating-imghm {
       margin: 40px 0;
     }
 
-    .bttn,
-    .bttn1 {
+    .bttnh,
+    .bttn1h {
       padding: 12px 24px;
       border-radius: 50px;
       font-weight: 500;
@@ -25,7 +25,7 @@
       margin-right: 16px;
     }
 
-    .bttn {
+    .bttnh {
       background: white;
       border: 2px solid #ff6a00;
       color: #ff6a00;
@@ -36,7 +36,7 @@
       }
     }
 
-    .bttn1 {
+    .bttn1h {
       background: transparent;
       color: #ff6a00;
       border: none;
@@ -218,7 +218,7 @@
         }
       }
 
-      .custom-arrow {
+      .custom-arrowhm {
         position: absolute;
         bottom: -80px;
         padding: 8px 16px;
@@ -226,6 +226,7 @@
         border: none;
         cursor: pointer;
         z-index: 3;
+        gap: 30px;
 
         &.left-arrow {
           right: 70px;
@@ -240,10 +241,9 @@
         }
       }
 
-      .dots {
+      .dotshm {
         position: absolute;
         bottom: -55px;
-        left: 50%;
         transform: translateX(-50%);
         display: flex;
         gap: 8px;
@@ -265,10 +265,11 @@
   @media (max-width: 806px) {
     flex-direction: column;
 
-    .left{
+    .lefthm{
       width: 100%;
-      .bttn, .bttn1{
-        transform: translateY(770px);
+      text-align: center;
+       .bttn1h{
+        margin-bottom: 90px;
       }
     }
     .right {
@@ -282,7 +283,7 @@
       }
 
       .iconka-img{
-        transform: translate(60px, -290px);
+        transform: translate(60px, -260px);
         z-index: 999;
       }
       .front-card { 

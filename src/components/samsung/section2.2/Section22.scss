@@ -25,7 +25,7 @@
     line-height: 1.5;
   }
 
- .tabs {
+ .tabssm {
   position: relative;
   display: flex;
   justify-content: center;
@@ -45,7 +45,7 @@
     background-color: #ddd;
   }
 
-  .tab {
+  .tabsm {
     font-size: 26px;
     color: #888;
     cursor: pointer;
@@ -131,13 +131,16 @@
 @media (max-width: 768px) {
   .repair-wrapper {
     padding: 30px 15px;
+    .qandaydr{
+      text-align: center;
+    }
 
-    .tabs {
+    .tabssm {
       flex-wrap: nowrap;
       overflow-x: auto;
-      justify-content: flex-start;
+      justify-content: center;
 
-      .tab {
+      .tabsm {
         white-space: nowrap;
         font-size: 15px;
       }

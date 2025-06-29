@@ -71,11 +71,11 @@ const Section5 = () => {
 
   return (
     <div className="father-box container d-flex">
-      <div className="left">
-        <h2>Отзывы</h2>
-        <img className="img-fluid rating-img" src={imageUrl} alt="reyting" />
-        <button className="bttn">ОСТАВИТЬ ОТЗЫВ</button>
-        <button className="bttn1">ЧИТАТЬ ВСЕ ОТЗЫВЫ</button>
+      <div className="lefthm">
+        <h2 className="otzvv">Отзывы</h2>
+        <img className="rating-imghm" src={imageUrl} alt="reyting" />
+        <button className="bttnh">ОСТАВИТЬ ОТЗЫВ</button>
+        <button className="bttn1h">ЧИТАТЬ ВСЕ ОТЗЫВЫ</button>
       </div>
 
       <div className="right">
@@ -121,18 +121,20 @@ const Section5 = () => {
             </div>
           </div>
 
-          <button className="custom-arrow left-arrow" onClick={prev}>
-            <img src={strelka} alt="prev" />
-          </button>
-          <button className="custom-arrow right-arrow" onClick={next}>
-            <img src={strelka2} alt="next" />
-          </button>
-
-          <div className="dots">
+          <div className="dotshm">
             {reviews.map((_, i) => (
               <span key={i} className={i === index ? "active" : ""}></span>
             ))}
           </div>
+          
+
+          <button className="custom-arrowhm left-arrow" onClick={prev}>
+            <img src={strelka} alt="prev" />
+          </button>
+          <button className="custom-arrowhm right-arrow" onClick={next}>
+            <img src={strelka2} alt="next" />
+          </button>
+
         </div>
       </div>
     </div>

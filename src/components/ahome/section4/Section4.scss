@@ -23,6 +23,7 @@ div {
     }
     @media (max-width: 768px) {
       flex-direction: column;
+      text-align: center;
          .left,
       .right {
         max-width: 100%;

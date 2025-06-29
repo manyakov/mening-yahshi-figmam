@@ -31,7 +31,7 @@
     transform: translateX(-50px); 
     z-index: 2;
 
-    .time-group {
+    .time-groupsm {
       display: flex;
       flex-direction: row; 
       align-items: center;
@@ -69,19 +69,22 @@
   @media (max-width: 806px) {
     flex-direction: column;
     width: 70%;
+    text-align: center;
 
     .countdown-box {
-      width: 300px;
+      max-width: 300px;
       position: relative;
       margin-bottom: 15px;
       justify-content: center;
+      transform: none;
       gap: 20px;
       flex-wrap: wrap;
     }
 
-    .time-group {
+    .time-groupsm {
       flex-direction: column !important;
       align-items: center;
+      justify-content: center;
           .time {
         font-size: 30px !important;
       }
@@ -89,7 +92,7 @@
 
     .btn-discount {
       align-self: center;
-      transform: translateX(-50px);
+      transform: none;
       padding: 20px;
     }
 

@@ -15,9 +15,6 @@
         span{
             display: block;
         }
-        .left-t{
-
-        }
 
         .line-t{
             width: 1px;
@@ -26,11 +23,8 @@
             background-color: #212121;
         }
         
-        .center-t{}
-        
-        .right-t{}
         @media (max-width: 800px) {
-            display: block;
+            flex-direction: column;
             gap: 0;
             .line-t{
                 display: none;

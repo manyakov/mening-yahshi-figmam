@@ -1,7 +1,7 @@
 // TSX file with qcr- prefix for all custom classNames
 import "./Kokcarousel.scss";
 import rey from "../../../img/bosrey.png";
-import reym from "../../../img/рейтингlg.png";
+import reym from "../../../img/рейтингm.png";
 import strelka from "../../../img/strelka.png";
 import { useEffect, useState } from "react";
 import rasm from "../../../img/фотоsm.png";
@@ -71,7 +71,7 @@ const Kokcarousel = () => {
     <div className="qcr-ota-box container d-flex">
       <div className="qcr-chap">
         <h2>Отзывы</h2>
-        <img className="img-fluid qcr-reyting-rasm" src={imageUrl} alt="reyting" />
+        <img className="img-fluid qcr-reyting-rasm-bos" src={imageUrl} alt="reyting" />
         <div className="d-flex">
         <button className="qcr-otziv-btn-bos">ОСТАВИТЬ ОТЗЫВ</button>
         <button className="qcr-hammasi-btn-bos">ЧИТАТЬ ВСЕ ОТЗЫВЫ</button>
@@ -102,7 +102,7 @@ const Kokcarousel = () => {
 
           <img className="qcr-belgi-rasm" src={iconka} alt="bi" />
 
-          <div className="qcr-sharh-karta-bos qcr-old-karta">
+          <div className="qcr-sharh-karta-bos qcr-old-karta-bos">
             <div className="qcr-ajratgich"></div>
             <p>“{mainReview.text}”</p>
             <img src={mainReview.img} alt={mainReview.name} />

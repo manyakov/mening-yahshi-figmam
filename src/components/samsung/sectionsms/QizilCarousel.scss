@@ -14,22 +14,22 @@
         font-weight: 700;
       }
   
-      .qcr-reyting-rasm {
+      .qcr-reyting-rasmsm {
           display: flex;
-        margin: 40px 0;
+        margin: 40px auto;
       }
   
-      .qcr-otziv-btn,
-      .qcr-hammasi-btn {
+      .qcr-otziv-btnsm,
+      .qcr-hammasi-btnsm {
         padding: 12px 24px;
-        border-radius: 10px;
+        border-radius: 50px;
         cursor: pointer;
         transition: 0.3s;
         margin-right: 16px;
       }
   
-      .qcr-otziv-btn {
-        background: rgb(131, 22, 22);
+      .qcr-otziv-btnsm {
+        background: #212121;
         color: white;
         border: none;
         &:hover {
@@ -38,7 +38,7 @@
         }
       }
   
-      .qcr-hammasi-btn {
+      .qcr-hammasi-btnsm {
         background: transparent;
         color: black;
         &:hover {
@@ -59,7 +59,7 @@
         align-items: center;
         justify-content: center;
   
-        .qcr-sharh-karta {
+        .qcr-sharh-kartasm {
           width: 480px;
           background: white;
           padding: 36px;
@@ -97,7 +97,7 @@
             margin-bottom: 25px;
           }
   
-          img {
+          .imgsm{
             width: 64px;
             height: 64px;
             border-radius: 50%;
@@ -105,7 +105,7 @@
             z-index: 2;
             display: block;
             position: relative;
-            margin: 0 0 0 160px;
+            margin: 0 auto;
           }
   
           .qcr-sharhlovchi {
@@ -145,7 +145,7 @@
           z-index: 999;
         }
   
-        .qcr-old-karta {
+        .qcr-old-kartasm {
           max-width: 450px;
           max-height: 430px;
           width: 480px;
@@ -170,7 +170,7 @@
             margin-bottom: 25px;
           }
   
-          img {
+          .imgsm {
             width: 64px;
             height: 64px;
             border-radius: 50%;
@@ -178,7 +178,7 @@
             z-index: 2;
             display: block;
             position: relative;
-            margin: 0 0 0 160px;
+            margin: 0 auto;
           }
   
           .qcr-sharhlovchi {
@@ -213,21 +213,27 @@
           }
         }
   
-        .qcr-strelka {
+        .qcr-strelkasm {
           position: absolute;
           bottom: -80px;
           border-radius: 50%;
-          border: none;
           cursor: pointer;
+          border: 1px solid black;
           z-index: 3;
           background: white;
-          &.qcr-chap-strelka {
+          padding: 10px 17px;
+          &.qcr-chap-strelkasm {
             right: 70px;
           }
-          &.qcr-ong-strelka {
+          &.qcr-ong-strelkasm {
             right: 10px;
             transform: rotate(180deg);
           }
+         &:hover {
+          background-color: black;
+          color: white !important;
+          border: none;
+         }
         }
   
         .qcr-nuqtalar {
@@ -257,8 +263,9 @@
   
       .qcr-chap {
         width: 100%;
-        .qcr-otziv-btn,
-        .qcr-hammasi-btn {
+        text-align: center;
+        .qcr-otziv-btnsm,
+        .qcr-hammasi-btnsm {
           transform: translateY(650px);
         }
       }
@@ -284,7 +291,7 @@
             transform: translate(60px, -220px);
           }
   
-          .qcr-old-karta {
+          .qcr-old-kartasm {
             max-width: 550px;
             max-height: 530px;
             transform: none;

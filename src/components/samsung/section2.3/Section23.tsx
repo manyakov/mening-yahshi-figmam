@@ -24,7 +24,6 @@ const allCategories = [
 ];
 
 const items = [
-  // Бытовая техника
   { name: "pelisos", image: pelisos, category: "Бытовая техника" },
   { name: "Парогенератор", image: Парогенератор, category: "Бытовая техника" },
   { name: "", image:Гладильная, category: "Бытовая техника" },
@@ -38,47 +37,47 @@ const items = [
   { name: "Микроволновая печь", image: Микроволновая, category: "Бытовая техника" },
   { name: "Кондиционер", image: Кондиционер, category: "Бытовая техника" },
 
-  // Цифровая техника
-  { name: "Смартфон", image: "smartphone.jpg", category: "Цифровая техника" },
-  { name: "Планшет", image: "tablet.jpg", category: "Цифровая техника" },
-  { name: "Умные часы", image: "smartwatch.jpg", category: "Цифровая техника" },
+  { name: "Смартфон", image: Кондиционер, category: "Цифровая техника" },
+  { name: "Планшет", image: Микроволновая, category: "Цифровая техника" },
+  { name: "Умные часы", image: Кухонная, category: "Цифровая техника" },
 
-  // Компьютерная техника
-  { name: "Ноутбук", image: "laptop.jpg", category: "Компьютерная техника" },
-  { name: "Монитор", image: "monitor.jpg", category: "Компьютерная техника" },
-  { name: "Принтер", image: "printer.jpg", category: "Компьютерная техника" },
+  { name: "Ноутбук", image: Варочная, category: "Компьютерная техника" },
+  { name: "Монитор", image: Духовой, category: "Компьютерная техника" },
+  { name: "Принтер", image: Холодильник, category: "Компьютерная техника" },
 
-  // ТВ и Аудио
-  { name: "Телевизор", image: "tv.jpg", category: "ТВ и Аудио" },
-  { name: "Саундбар", image: "soundbar.jpg", category: "ТВ и Аудио" },
-  { name: "Домашний кинотеатр", image: "home-theater.jpg", category: "ТВ и Аудио" },
+  { name: "Телевизор", image: Посудомоечная, category: "ТВ и Аудио" },
+  { name: "Саундбар", image: Сушильная, category: "ТВ и Аудио" },
+  { name: "Домашний кинотеатр", image: Стиральная, category: "ТВ и Аудио" },
 ];
 
 export default function SamsungRepair2() {
   const [activeTab, setActiveTab] = useState("Бытовая техника");
   const [screenCategories, setScreenCategories] = useState(allCategories);
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setScreenCategories(["Бытовая техника", "Цифровая техника"]);
-        if (!screenCategories.includes(activeTab)) {
-          setActiveTab("Бытовая техника");
-        }
-      } else {
-        setScreenCategories(allCategories);
+useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth <= 768) {
+      const newScreenCategories = ["Бытовая техника", "Цифровая техника"];
+      setScreenCategories(newScreenCategories);
+      if (!newScreenCategories.includes(activeTab)) {
+        setActiveTab("Бытовая техника");
       }
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [activeTab, screenCategories]);
+    } else {
+      setScreenCategories(allCategories);
+    }
+  };
+
+  handleResize(); 
+
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, [activeTab, allCategories]);
 
   const filteredItems = items.filter((item) => item.category === activeTab);
 
   return (
     <div className="repair-wrapper container">
-        <h2 style={{
+        <h2 className="qandaydr" style={{
             maxWidth:670,
             marginTop:200
         }}>Ответьте на 3 вопроса и получите подарок от нашего сервисного центра</h2>
@@ -89,11 +88,11 @@ export default function SamsungRepair2() {
         <img className="img-fluid" src={savol1} style={{
             display:"block"
         }} alt="salov" width={400} />
-      <div className="tabs">
+      <div className="tabssm">
         {screenCategories.map((cat) => (
           <div
             key={cat}
-            className={`tab ${cat === activeTab ? "active" : ""}`}
+            className={`tabsm ${cat === activeTab ? "active" : ""}`}
             onClick={() => setActiveTab(cat)}
           >
             {cat}

@@ -25,7 +25,7 @@
         }
         
         @media (max-width: 800px) {
-            display: block;
+            flex-direction: column;
             gap: 0;
             .line-tlg{
                 display: none;

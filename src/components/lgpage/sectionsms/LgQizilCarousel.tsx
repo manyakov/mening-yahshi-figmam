@@ -80,7 +80,7 @@ const LgQizilCarousel = () => {
 
       <div className="qcr-ong">
         <div className="qcr-karusel-quti">
-          <div className="qcr-sharh-karta qcr-orqa-karta">
+          <div className="qcr-sharh-kartalg qcr-orqa-kartalg">
             <div className="qcr-ajratgich"></div>
             <p>“{nextReview.text}”</p>
             <img src={nextReview.img} alt={nextReview.name} />
@@ -102,7 +102,7 @@ const LgQizilCarousel = () => {
 
           <img className="qcr-belgi-rasm" src={iconka} alt="bi" />
 
-          <div className="qcr-sharh-karta qcr-old-karta">
+          <div className="qcr-sharh-kartalg qcr-old-kartalg">
             <div className="qcr-ajratgich"></div>
             <p>“{mainReview.text}”</p>
             <img src={mainReview.img} alt={mainReview.name} />

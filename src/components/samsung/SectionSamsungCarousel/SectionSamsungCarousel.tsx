@@ -77,7 +77,7 @@ const Samsc: React.FC = () => {
   return (
     <div className="carousel-wrapper container">
       <h2 className='nvcrs'>Истории последних обращений в наш сервис</h2>
-      <div className="carousel-content">
+      <div className="carousel-contentsm">
         {/* Chap rasm */}
         <div className="carousel-left">
           <img src={imageUrl} alt="Left" />

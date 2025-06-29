@@ -44,14 +44,19 @@
 
         &.right-arrow {
           right: 10px;
-          background: linear-gradient(90deg, #FF0000, #FE7303);
+           background-color: #EFEFEF;
+          color: #7A7A7A;
+          border: 1px solid #7A7A7A;
+        }
+        &:hover {
+           background: linear-gradient(90deg, #FF0000, #FE7303);
           color: white;
         }
       }
     }
   }
 
-  .svv {
+  .svvh {
     display: flex;
     flex-wrap: wrap;
     margin-top: -200px;
@@ -85,10 +90,12 @@
       }
     }
 
-    .svv {
+    .svvh {
       align-items: center;
+      margin: 0 auto;
 
       .i1, .i2, .i3 {
+        margin: 0 auto;
         img {
           width: 200px;
           height: auto;

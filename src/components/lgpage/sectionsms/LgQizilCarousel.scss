@@ -59,7 +59,7 @@
         align-items: center;
         justify-content: center;
   
-        .qcr-sharh-karta {
+        .qcr-sharh-kartalg {
           width: 480px;
           background: white;
           padding: 36px;
@@ -73,7 +73,7 @@
           height: 100%;
         }
   
-        .qcr-orqa-karta {
+        .qcr-orqa-kartalg {
           max-width: 450px;
           max-height: 430px;
           right: -130px;
@@ -105,7 +105,7 @@
             z-index: 2;
             display: block;
             position: relative;
-            margin: 0 0 0 160px;
+            margin: 0 auto;
           }
   
           .qcr-sharhlovchi {
@@ -145,7 +145,7 @@
           z-index: 999;
         }
   
-        .qcr-old-karta {
+        .qcr-old-kartalg {
           max-width: 450px;
           max-height: 430px;
           width: 480px;
@@ -178,7 +178,7 @@
             z-index: 2;
             display: block;
             position: relative;
-            margin: 0 0 0 160px;
+            margin: 0 auto;
           }
   
           .qcr-sharhlovchi {

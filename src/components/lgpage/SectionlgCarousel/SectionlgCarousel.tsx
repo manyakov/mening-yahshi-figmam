@@ -3,6 +3,8 @@ import './SectionlgCarousel.scss';
 
 import bcg from "../../../img/отзыв2lg.png";
 import dmr from "../../../img/Group40lg.png";
+import dmr1 from "../../../img/Grouplgu.png";
+import dmr2 from "../../../img/Group 40.png";
 import bcgm from "../../../img/отзыв 8.png";
 import dmrm from "../../../img/описание.png";
 
@@ -20,12 +22,12 @@ const slides: Slide[] = [
   },
   {
     id: 2,
-    image: dmr,
+    image: dmr1,
     avatar: bcg,
   },
   {
     id: 3,
-    image: dmr,
+    image: dmr2,
     avatar: bcg,
   },
   {
@@ -35,12 +37,12 @@ const slides: Slide[] = [
   },
   {
     id: 5,
-    image: dmr,
+    image: dmr1,
     avatar: bcg,
   },
   {
     id: 6,
-    image: dmr,
+    image: dmr2,
     avatar: bcg,
   },
 ];
@@ -78,9 +80,10 @@ const Lgsc: React.FC = () => {
     <div className="carousel-wrapperlg container">
       <h2 className='nvcrs'>Истории последних обращений в наш сервис</h2>
       <div className="carousel-content">
-        <div className="carousel-left">
-          <img src={imageUrl} alt="Left" />
-        </div>
+      <div className="carousel-left">
+  <img src={isMobile ? dmrm : slides[activeIndex].image} alt="Left" />
+</div>
+
 
         <div className="carousel-right">
           <img src={imageUrl2} alt="Right" />

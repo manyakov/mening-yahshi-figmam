@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import playstation from "../../../../img/playstation.png";
 import strelka from "../../../../img/strelka.png";
-import strelka2 from "../../../../img/arrow.png";
+import strelka2 from "../../../../img/arrowhome.png";
 import png from "../../../../img/1.png"
 import png2 from "../../../../img/2.png"
 import png3 from "../../../../img/3.png"
@@ -46,7 +46,9 @@ const NavbarHead = () => {
                 title={label}
                 className="custom-arrow right-arrow"
               >
-                <img src={strelka2} alt="sttr2" />
+                <img style={{
+                  width:10
+                }} src={strelka2} alt="sttr2" />
               </button>
             )
           }
@@ -63,7 +65,7 @@ const NavbarHead = () => {
         </Carousel>
       </div>
           </div>
-          <div className="svv d-flex container">
+          <div className="svvh d-flex container">
             <div className="i1" >
               <img src={png} alt="ssa" style={{width:230, height:120}} />
             </div>

@@ -1,6 +1,6 @@
 // TSX file with qcr- prefix for all custom classNames
 import "./QizilCarousel.scss";
-import rey from "../../../img/рейтингsm.png";
+import rey from "../../../img/рейтинг.png";
 import reym from "../../../img/рейтингm.png";
 import strelka from "../../../img/strelka.png";
 import { useEffect, useState } from "react";
@@ -59,20 +59,20 @@ const QizilCarousel = () => {
       <div className="rang">
     <div className="qcr-ota-box container d-flex">
       <div className="qcr-chap">
-        <h2>Отзывы</h2>
-        <img className="img-fluid qcr-reyting-rasm" src={imageUrl} alt="reyting" />
+        <h2 className="otzvv">Отзывы</h2>
+        <img className="img-fluid qcr-reyting-rasmsm" src={imageUrl} alt="reyting" />
         <div className="d-flex">
-        <button className="qcr-otziv-btn">ОСТАВИТЬ ОТЗЫВ</button>
-        <button className="qcr-hammasi-btn">ЧИТАТЬ ВСЕ ОТЗЫВЫ</button>
+        <button className="qcr-otziv-btnsm">ОСТАВИТЬ ОТЗЫВ</button>
+        <button className="qcr-hammasi-btnsm">ЧИТАТЬ ВСЕ ОТЗЫВЫ</button>
         </div>
       </div>
 
       <div className="qcr-ong">
         <div className="qcr-karusel-quti">
-          <div className="qcr-sharh-karta qcr-orqa-karta">
+          <div className="qcr-sharh-kartasm qcr-orqa-karta">
             <div className="qcr-ajratgich"></div>
             <p>“{nextReview.text}”</p>
-            <img src={nextReview.img} alt={nextReview.name} />
+            <img className="imgsm" src={nextReview.img} alt={nextReview.name} />
             <div className="qcr-sharhlovchi">
               <div>
                 <strong>{nextReview.name}</strong>
@@ -91,10 +91,10 @@ const QizilCarousel = () => {
 
           <img className="qcr-belgi-rasm" src={iconka} alt="bi" />
 
-          <div className="qcr-sharh-karta qcr-old-karta">
+          <div className="qcr-sharh-kartasm qcr-old-kartasm">
             <div className="qcr-ajratgich"></div>
             <p>“{mainReview.text}”</p>
-            <img src={mainReview.img} alt={mainReview.name} />
+            <img className="imgsm" src={mainReview.img} alt={mainReview.name} />
             <div className="qcr-sharhlovchi">
               <div>
                 <strong>{mainReview.name}</strong>
@@ -111,10 +111,10 @@ const QizilCarousel = () => {
             </div>
           </div>
 
-          <button className="qcr-strelka qcr-chap-strelka" onClick={prev}>
+          <button className="qcr-strelkasm qcr-chap-strelkasm" onClick={prev}>
             <img src={strelka} alt="prev" />
           </button>
-          <button className="qcr-strelka qcr-ong-strelka" onClick={next}>
+          <button className="qcr-strelkasm qcr-ong-strelkasm" onClick={next}>
             <img src={strelka} alt="next" />
           </button>
 

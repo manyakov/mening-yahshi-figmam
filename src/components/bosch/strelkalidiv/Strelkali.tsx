@@ -9,28 +9,11 @@ import ic6 from "../../../img/иконка6r.png"
 
 const Strelkali = () => {
   return (
-    <div>
+    <div className="eng-kottasi">
       <div className="oltilikni-ora">
         <div className="brlik">
             <div className="nomer">
                 <b>01</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic1} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Консультация</h4>
-                <span>Вы можете оставить заявку или позвонить сомстоятельно для подробной консультации</span>
-            </div>
-        </div>
-        <div className="brlikm">
-            <div className="nomer">
-                <b>02</b>
             </div>
             <div className="rasm-uchunn">
                 <div className="str">
@@ -80,23 +63,6 @@ const Strelkali = () => {
                 <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
             </div>
         </div>
-        <div className="uchlikm">
-            <div className="nomer">
-                <b>04</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic3} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Диагностика</h4>
-                <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
-            </div>
-        </div>
         <div className="torlik">
             <div className="yozular-uchu">
                 <h4>Согласование</h4>
@@ -132,23 +98,6 @@ const Strelkali = () => {
                 <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
             </div>
         </div>
-        <div className="beshlikm">
-            <div className="nomer">
-                <b>06</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic5} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Гарантия</h4>
-                <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
-            </div>
-        </div>
         <div className="oltilik">
             <div className="yozular-uchu">
                 <h4>Возврат техники</h4>
@@ -167,7 +116,112 @@ const Strelkali = () => {
                 <b>06</b>
             </div>
         </div>
-     
+      </div>
+      <div className="meih">
+         <div className="brlikm2">
+            <div className="nomer">
+                <b>01</b>
+            </div>
+            <div className="rasm-uchunn">
+                <div className="str">
+                    <img src={str} alt="strelka" />
+                </div>
+                <div className="dumrs">
+                    <img src={ic1} alt="strelka" />
+                </div>
+            </div>
+            <div className="yozular-uchu">
+                <h4>Консультация</h4>
+                <span>Вы можете оставить заявку или позвонить сомстоятельно для подробной консультации</span>
+            </div>
+        </div>
+         <div className="brlikm">
+            <div className="nomer">
+                <b>02</b>
+            </div>
+            <div className="rasm-uchunn">
+                <div className="str">
+                    <img src={str} alt="strelka" />
+                </div>
+                <div className="dumrs">
+                    <img src={ic1} alt="strelka" />
+                </div>
+            </div>
+            <div className="yozular-uchu">
+                <h4>Консультация</h4>
+                <span>Вы можете оставить заявку или позвонить сомстоятельно для подробной консультации</span>
+            </div>
+        </div>
+       
+         <div className="uchlikm2">
+            <div className="nomer">
+                <b>03</b>
+            </div>
+            <div className="rasm-uchunn">
+                <div className="str">
+                    <img src={str} alt="strelka" />
+                </div>
+                <div className="dumrs">
+                    <img src={ic3} alt="strelka" />
+                </div>
+            </div>
+            <div className="yozular-uchu">
+                <h4>Диагностика</h4>
+                <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
+            </div>
+        </div>
+          <div className="uchlikm">
+            <div className="nomer">
+                <b>04</b>
+            </div>
+            <div className="rasm-uchunn">
+                <div className="str">
+                    <img src={str} alt="strelka" />
+                </div>
+                <div className="dumrs">
+                    <img src={ic3} alt="strelka" />
+                </div>
+            </div>
+            <div className="yozular-uchu">
+                <h4>Диагностика</h4>
+                <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
+            </div>
+        </div>
+        
+          <div className="beshlikm2">
+            <div className="nomer">
+                <b>05</b>
+            </div>
+            <div className="rasm-uchunn">
+                <div className="str">
+                    <img src={str} alt="strelka" />
+                </div>
+                <div className="dumrs">
+                    <img src={ic5} alt="strelka" />
+                </div>
+            </div>
+            <div className="yozular-uchu">
+                <h4>Гарантия</h4>
+                <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
+            </div>
+        </div>
+         <div className="beshlikm">
+            <div className="nomer">
+                <b>06</b>
+            </div>
+            <div className="rasm-uchunn">
+                <div className="str">
+                    <img src={str} alt="strelka" />
+                </div>
+                <div className="dumrs">
+                    <img src={ic5} alt="strelka" />
+                </div>
+            </div>
+            <div className="yozular-uchu">
+                <h4>Гарантия</h4>
+                <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
+            </div>
+        </div>
       </div>
     </div>
   )
