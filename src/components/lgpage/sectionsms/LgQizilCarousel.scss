@@ -14,9 +14,9 @@
         font-weight: 700;
       }
   
-      .qcr-reyting-rasm {
+      .qcr-reyting-rasmlg {
           display: flex;
-        margin: 40px 0;
+        margin: 40px auto;
       }
   
       .qcr-otziv-btn,
@@ -257,6 +257,9 @@
   
       .qcr-chap {
         width: 100%;
+        .lgot{
+          text-align: center;
+        }
         .qcr-otziv-btn,
         .qcr-hammasi-btn {
           transform: translateY(650px);
@@ -266,25 +269,26 @@
       .qcr-ong {
         width: 100%;
         .qcr-karusel-quti {
-          height: 440px;
+          height: 600px;
+          margin-top: -140px;
           display: flex;
           align-items: center;
           justify-content: center;
   
-          .qcr-sharh-karta {
+          .qcr-sharh-kartalg {
             width: 480px;
             padding: 36px;
           }
   
-          .qcr-orqa-karta {
+          .qcr-orqa-kartalg {
             display: none !important;
           }
   
           .qcr-belgi-rasm {
-            transform: translate(60px, -220px);
+            transform: translate(60px, -240px);
           }
   
-          .qcr-old-karta {
+          .qcr-old-kartalg {
             max-width: 550px;
             max-height: 530px;
             transform: none;

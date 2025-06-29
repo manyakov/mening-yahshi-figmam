@@ -1,7 +1,7 @@
 // TSX file with qcr- prefix for all custom classNames
 import "./LgQizilCarousel.scss";
 import rey from "../../../img/рейтингsm.png";
-import reym from "../../../img/рейтингlg.png";
+import reym from "../../../img/рейтингm.png";
 import strelka from "../../../img/strelka.png";
 import { useEffect, useState } from "react";
 import rasm from "../../../img/фотоsm.png";
@@ -70,8 +70,8 @@ const LgQizilCarousel = () => {
       <div className="ranglg">
     <div className="qcr-ota-box container d-flex">
       <div className="qcr-chap">
-        <h2>Отзывы</h2>
-        <img className="img-fluid qcr-reyting-rasm" src={imageUrl} alt="reyting" />
+        <h2 className="lgot">Отзывы</h2>
+        <img className="img-fluid qcr-reyting-rasmlg" src={imageUrl} alt="reyting" />
         <div className="d-flex">
         <button className="qcr-otziv-btn">ОСТАВИТЬ ОТЗЫВ</button>
         <button className="qcr-hammasi-btn">ЧИТАТЬ ВСЕ ОТЗЫВЫ</button>

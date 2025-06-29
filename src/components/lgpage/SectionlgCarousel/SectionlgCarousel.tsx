@@ -61,7 +61,6 @@ const Lgsc: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const imageUrl = isMobile ? dmrm : dmr;
   const imageUrl2 = isMobile ? bcgm : bcg;
 
   const next = () => {

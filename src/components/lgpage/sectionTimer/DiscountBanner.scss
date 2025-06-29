@@ -34,10 +34,10 @@
       }
     }
 
-    .timer-overlay {
+    .timer-overlaylg {
       position: absolute;
       z-index: 3;
-      transform: translate(260%, -5%);
+      transform: translate(240%, -5%);
       background-color: rgba(255, 192, 203, 0.75);
       padding: 15px 25px;
       border-radius: 12px;
@@ -93,7 +93,7 @@
    @media (max-width:806px) {
     .top-section{
       min-height: 600px;
-      .timer-overlay{
+      .timer-overlaylg{
         transform: none;
       }
     }

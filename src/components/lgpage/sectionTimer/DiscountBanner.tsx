@@ -31,7 +31,7 @@ const DiscountBanner = () => {
           </p>
         </div>
 
-        <div className="timer-overlay">
+        <div className="timer-overlaylg">
           <span>{formatTime(secondsLeft)}</span>
         </div>
       </div>
