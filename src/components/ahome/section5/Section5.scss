@@ -236,7 +236,14 @@
 
         &.right-arrow {
           right: 10px;
-          background: linear-gradient(90deg, #ff0000, #fe7303);
+          background: #efefef;
+          border: 1px solid #aaa;
+          img{
+            width: 10px;
+          }
+        }
+        &:hover {
+            background: linear-gradient(90deg, #ff0000, #fe7303);
           color: white;
         }
       }

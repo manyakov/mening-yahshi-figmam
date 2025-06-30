@@ -9,221 +9,66 @@ import ic6 from "../../../img/иконка6r.png"
 
 const Strelkali = () => {
   return (
-    <div className="eng-kottasi">
-      <div className="oltilikni-ora">
-        <div className="brlik">
-            <div className="nomer">
-                <b>01</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
+     <div>
+            <div className="bosch-section3">
+                <h1>Этапы ремонта и ценообразование</h1>
+                <div className="fix-steps">
+                <div className="step-bosch first-comand">
+                        <span className="spans">01</span>
+                        <img src={str} />
+                        <img className="images-bosch1" src={ic1} />
+                        <span>Диагностика</span>
+                        <h5>Техник тщательно изучает ваш
+                            гаджет и тестирует на современном оборудовании</h5>
+                    </div>
+                    <div className="step-bosch second-comand">
+                        <span >Консультация</span>
+                        <h5>Вы можете оставить заявку
+                            или позвонить сомстоятельно
+                            для подробной консультации</h5>
+                        <img   className="images-bosch2" src={ic2} />
+                        <img  className="arrow-left" src={str} />
+                        <span className="spans">02</span>
+                    </div>
+                    <div className="step-bosch first-comand">
+                        <span className="spans">03</span>
+                        <img src={str} />
+                        <img className="images-bosch1" src={ic3} />
+                        <span>Диагностика</span>
+                        <h5>Техник тщательно изучает ваш
+                            гаджет и тестирует на современном оборудовании</h5>
+                    </div>
+                    <div className="step-bosch second-comand">
+                        <span>Консультация</span>
+                        <h5>Вы можете оставить заявку
+                            или позвонить сомстоятельно
+                            для подробной консультации</h5>
+                        <img  className="images-bosch2" src={ic4} />
+                        <img  className="arrow-left" src={str} />
+                        <span className="spans">04</span>
+                    </div>
+                    <div className="step-bosch first-comand">
+                        <span className="spans">05</span>
+                        <img src={str} />
+                        <img className="images-bosch1" src={ic5} />
+                        <span>Гарантия</span>
+                        <h5>После того, как вы проверите
+                            устройство, мы выписываем
+                            гарантийный талон под печать
+                            компании</h5>
+                    </div>
+                    <div className="step-bosch second-comand">
+                        <span>Консультация</span>
+                        <h5>Вы можете оставить заявку
+                            или позвонить сомстоятельно
+                            для подробной консультации</h5>
+                        <img className="images-bosch2" src={ic6} />
+                        <img className="arrow-left" src={str} />
+                        <span className="spans">06</span>
+                    </div>
                 </div>
-                <div className="dumrs">
-                    <img src={ic1} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Консультация</h4>
-                <span>Вы можете оставить заявку или позвонить сомстоятельно для подробной консультации</span>
             </div>
         </div>
-        <div className="ikkilik">
-            <div className="yozular-uchu">
-                <h4>Встреча</h4>
-                <span>Мастер приезжает на место или вы самостоятельно приезжаете к нам в сервисный центр</span>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="dumrs">
-                    <img style={{
-                    }} src={ic2} alt="strelka" />
-                </div>
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-            </div>
-               <div className="nomer">
-                <b>02</b>
-            </div>
-        </div>
-        <div className="uchlik">
-            <div className="nomer">
-                <b>03</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic3} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Диагностика</h4>
-                <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
-            </div>
-        </div>
-        <div className="torlik">
-            <div className="yozular-uchu">
-                <h4>Согласование</h4>
-                <span>Мы предлагаем несколько вариантов решения вашей проблемы для того, чтобы вы уложились в бюджет</span>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="dumrs">
-                    <img style={{
-                    }} src={ic4} alt="strelka" />
-                </div>
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-            </div>
-               <div className="nomer">
-                <b>04</b>
-            </div>
-        </div>
-        <div className="beshlik">
-            <div className="nomer">
-                <b>05</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic5} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Гарантия</h4>
-                <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
-            </div>
-        </div>
-        <div className="oltilik">
-            <div className="yozular-uchu">
-                <h4>Возврат техники</h4>
-                <span>После ремонта мы можем бесплатно доставить устройство до нужного места или самовывоза</span>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="dumrs">
-                    <img style={{
-                    }} src={ic6} alt="strelka" />
-                </div>
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-            </div>
-               <div className="nomer">
-                <b>06</b>
-            </div>
-        </div>
-      </div>
-      <div className="meih">
-         <div className="brlikm2">
-            <div className="nomer">
-                <b>01</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic1} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Консультация</h4>
-                <span>Вы можете оставить заявку или позвонить сомстоятельно для подробной консультации</span>
-            </div>
-        </div>
-         <div className="brlikm">
-            <div className="nomer">
-                <b>02</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic1} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Консультация</h4>
-                <span>Вы можете оставить заявку или позвонить сомстоятельно для подробной консультации</span>
-            </div>
-        </div>
-       
-         <div className="uchlikm2">
-            <div className="nomer">
-                <b>03</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic3} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Диагностика</h4>
-                <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
-            </div>
-        </div>
-          <div className="uchlikm">
-            <div className="nomer">
-                <b>04</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic3} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Диагностика</h4>
-                <span>Техник тщательно изучает ваш гаджет и тестирует на современном оборудовании</span>
-            </div>
-        </div>
-        
-          <div className="beshlikm2">
-            <div className="nomer">
-                <b>05</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic5} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Гарантия</h4>
-                <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
-            </div>
-        </div>
-         <div className="beshlikm">
-            <div className="nomer">
-                <b>06</b>
-            </div>
-            <div className="rasm-uchunn">
-                <div className="str">
-                    <img src={str} alt="strelka" />
-                </div>
-                <div className="dumrs">
-                    <img src={ic5} alt="strelka" />
-                </div>
-            </div>
-            <div className="yozular-uchu">
-                <h4>Гарантия</h4>
-                <span>После того, как вы проверите устройство, мы выписываем гарантийный талон под печать компании</span>
-            </div>
-        </div>
-      </div>
-    </div>
   )
 }
 

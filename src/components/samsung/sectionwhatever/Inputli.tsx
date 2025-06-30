@@ -23,7 +23,7 @@ const Inputli = () => {
       </div>
       <div className="rating-section">
         <label>Ваша оценка</label>
-        <div className="stars">
+        <div className="starssm">
           {[1, 2, 3, 4, 5].map((star) => (
             <button
               type="button"

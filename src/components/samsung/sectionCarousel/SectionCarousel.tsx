@@ -35,7 +35,7 @@ const masters: Master[] = [
     experience: "7 лет",
     rating: 4.8,
     reviews: 24,
-    image: r1b
+    image: r2b
   },
   {
     name: "Павел Матухно",
@@ -43,7 +43,7 @@ const masters: Master[] = [
     experience: "3 года",
     rating: 5.0,
     reviews: 15,
-    image: r2b
+    image: r1b
   },
   {
     name: "Антон Грисевич",
@@ -67,7 +67,7 @@ const masters: Master[] = [
     experience: "7 лет",
     rating: 3.8,
     reviews: 24,
-    image: r1b
+    image: r2b
   },
   {
     name: "Павел Матухно",
@@ -75,7 +75,7 @@ const masters: Master[] = [
     experience: "3 года",
     rating: 5.0,
     reviews: 15,
-    image: r2b
+    image: r1b
   },
   {
     name: "Антон Грисевич",
@@ -99,7 +99,7 @@ const masters: Master[] = [
     experience: "7 лет",
     rating: 3.8,
     reviews: 24,
-    image: r1b
+    image: r2b
   },
   {
     name: "Павел Матухно",
@@ -107,7 +107,7 @@ const masters: Master[] = [
     experience: "3 года",
     rating: 5.0,
     reviews: 15,
-    image: r2b
+    image: r1b
   },
   {
     name: "Антон Грисевич",
@@ -125,7 +125,6 @@ const masters: Master[] = [
     reviews: 15,
     image: r2b
   },
-  // Qo‘shimcha masterlar kerak bo‘lsa shu yerga qo‘shing
 ];
 
 const SectionCarousel: React.FC = () => {

@@ -2,7 +2,7 @@ import "./Section5.scss";
 import rey from "../../../img/рейтинг.png";
 import reym from "../../../img/рейтингm.png";
 import strelka from "../../../img/strelka.png";
-import strelka2 from "../../../img/arrow.png";
+import strelka2 from "../../../img/arrowhome.png";
 import { useEffect, useState } from "react";
 import rasm from "../../../img/Ellipse 31.png"
 import rasm2 from "../../../img/Ellipse 31-1.png"

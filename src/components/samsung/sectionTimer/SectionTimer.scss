@@ -2,7 +2,7 @@
   background: #f4f4f4;
   border-radius: 12px;
   padding: 5px 20px 20px 20px;
-  max-width: 750px;
+  max-width: 790px;
   position: relative;
   overflow: visible;
   display: flex;
@@ -17,7 +17,7 @@
     margin-bottom: 10px;
   }
 
-  .countdown-box {
+  .countdown-boxsm {
     background: #1c1c1c;
     color: white;
     border-radius: 10px;
@@ -49,7 +49,7 @@
     }
   }
 
-  .btn-discount {
+  .btn-discountsm {
     background: #1c1c1c;
     color: white;
     border-radius: 999px;
@@ -59,7 +59,6 @@
     cursor: pointer;
     transition: background 0.3s ease;
     z-index: 1;
-    transform: translateX(50px);
 
     &:hover {
       background: #333;
@@ -71,7 +70,7 @@
     width: 70%;
     text-align: center;
 
-    .countdown-box {
+    .countdown-boxsm {
       max-width: 300px;
       position: relative;
       margin-bottom: 15px;
@@ -90,7 +89,7 @@
       }
     }
 
-    .btn-discount {
+    .btn-discountsm {
       align-self: center;
       transform: none;
       padding: 20px;

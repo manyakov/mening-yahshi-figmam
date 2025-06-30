@@ -55,7 +55,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
             .birinchi-ik,
             .ikkinchi-ik,
             .uchinchi-ik{
@@ -63,6 +63,7 @@
                     align-items: center;
                     justify-content: center;
                     display: flex;
+                    gap: 30px;
                     .rs{
                         display: block;
                         margin: 0 auto;

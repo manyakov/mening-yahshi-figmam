@@ -22,7 +22,7 @@ const SectionTimer: React.FC = () => {
    <div>
      <div className="countdown-wrapper container">
       <p className="countdown-title">До конца акции осталось</p>
-    <div className="countdown-box shadow">
+    <div className="countdown-boxsm shadow">
   <div className="time-groupsm">
     <span className="time">{hours}</span>
     <span className="label">часов</span>
@@ -36,8 +36,8 @@ const SectionTimer: React.FC = () => {
     <span className="label">секунд</span>
   </div>
 </div>
+      <button className="btn-discountsm">ПОЛУЧИТЬ СКИДКУ</button>
 
-      <button className="btn-discount">ПОЛУЧИТЬ СКИДКУ</button>
     </div>
     <img style={{
         marginTop:79

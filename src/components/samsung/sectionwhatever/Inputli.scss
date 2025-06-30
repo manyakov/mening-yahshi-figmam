@@ -56,7 +56,7 @@
       margin-bottom: 15px;
     }
 
-    .stars {
+    .starssm {
       display: flex;
       gap: 10px;
 
@@ -123,11 +123,14 @@
   }
 
   @media (max-width: 600px) {
+    text-align: center;
+    justify-content: center;
     .feedback-rowsm {
       flex-direction: column;
 
       input {
         width: 100%;
+        padding: 15px 0;
       }
     }
 
@@ -138,8 +141,13 @@
       transform: translateY(50px);
     }
 
-    .stars {
+    .starssm {
       flex-wrap: wrap;
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    
     }
   }
 }
